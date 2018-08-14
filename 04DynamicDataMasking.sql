@@ -13,12 +13,10 @@ CREATE TABLE TableWithSensitiveData02
 )
 
 --03 Sample data Insertion
-INSERT INTO TableWithSensitiveData02 (First_Name, Last_Name, DOB, Salary, Email, DOJ) 
-VALUES ('Venkatraman','Venkatadri','01/02/1980',20000,'a@b.com','12/10/2009' )
-INSERT INTO TableWithSensitiveData02 (First_Name, Last_Name, DOB, Salary, Email, DOJ) 
-VALUES ('Govindasamy','Ashwin','06/02/1970',26000,'alpha@c.com','10/06/1999' )
-INSERT INTO TableWithSensitiveData02 (First_Name, Last_Name, DOB, Salary, Email, DOJ) 
-VALUES ('Shankaran','Appadurai','12/12/1950',1000000,'rajini@superstar.com','08/18/1975' )
+INSERT INTO TableWithSensitiveData02 (First_Name, Last_Name, DOB, Salary, Email, DOJ) VALUES 
+('Venkatraman','Venkatadri','01/02/1980',20000,'a@b.com','12/10/2009' ),
+('Govindasamy','Ashwin','06/02/1970',26000,'alpha@c.com','10/06/1999' ),
+('Shankaran','Appadurai','12/12/1950',1000000,'rajini@superstar.com','08/18/1975' )
 
 --Check for data existance
 SELECT * FROM TableWithSensitiveData02
